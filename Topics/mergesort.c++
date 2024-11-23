@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+
 void merge(int arr[], int temp[], int low, int mid, int high) {
     int left = low;   // Starting index of the left half of arr
     int right = mid + 1; // Starting index of the right half of arr
