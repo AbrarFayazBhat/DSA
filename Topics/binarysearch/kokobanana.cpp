@@ -3,7 +3,7 @@ Koko can decide her bananas-per-hour eating speed of k. Each hour, she chooses s
 Koko likes to eat slowly but still wants to finish eating all the bananas before the guards return.
 
 Return the minimum integer k such that she can eat all the bananas within h hours.*/
-ong long totalhours(vector<int>& piles,int hourly){
+long long totalhours(vector<int>& piles,int hourly){
     int n=piles.size();
     long long totaltime=0;
     for(int i=0;i<n;i++){
